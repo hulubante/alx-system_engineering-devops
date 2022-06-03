@@ -6,10 +6,6 @@
  * Return: Always o (success)
  */
 int main(void)
-{
-	char ch = 'a';
-
-	while (ch <= 'z')
 	{
 		int ch;
 
