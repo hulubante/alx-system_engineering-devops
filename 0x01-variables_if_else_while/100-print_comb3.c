@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers from 00 to 99
+ * main - prints the numbers from 00 to 99numbers separated by a comma followed by a space, in ascending order.
  * Return: Always 0 (success)
  */
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 				  continue;
 			  {
 				  putchar(',');
-				  putchar(' '); 
+				  putchar(' ');
 			  }
 		  }
 		  }
