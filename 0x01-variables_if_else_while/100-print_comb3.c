@@ -4,23 +4,25 @@
  * main - prints the numbers from 00 to 99
  * Return: Always 0 (success)
  */
-int main(void) 
+int main(void)
 {
-	int n, m;
+	int digit1, digit2;
 
-	for (n = 48; n <= 57; n++)
+	for (digit1 = 0; digit1 < 10; digit1++)
 	  {
-		  for (m = 48; m <= 57; m++)
+		  for (digit2 = 0; digit2 < 10; digit2++)
 		  {
-			  putchar(n);
-			  putchar(m);
-			  if (n != 57 || m != 57)
-			  {
+			  putchar((digit1 % 10) + '0');
+			  putchar((digit2 % 10) + '0');
+
+			  if (digit1 == 9 && digit2 == 9)
+				  continue;
+
 				  putchar(',');
 				  putchar(' '); 
 			  }
 		  }
-	  }
+
 	putchar('\n');
 	return (0);
 }
