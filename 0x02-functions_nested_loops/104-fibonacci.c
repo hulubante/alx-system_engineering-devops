@@ -1,4 +1,4 @@
-#include <stdio.h>  
+#include <stdio.h>
 
 /**
  * main - find and prints the first 98 fibonacci numbers,
@@ -22,9 +22,9 @@ int main(void)
 		j = k - j;
 	}
 
-	j1 = j/ 1000000000;
+	j1 = j / 1000000000;
 	j2 = j % 1000000000;
-	k1 = k/ 1000000000;
+	k1 = k / 1000000000;
 	k2 = k % 1000000000;
 
 	for (i = 92; i < 99; ++i)
