@@ -1,8 +1,8 @@
-#include <stdio.h>  
+#include <stdio.h>
 
 /**
  * main - prints the first 50 fibonacci numbers, starting with 1 and 2
- * followed bay a new line 
+ * followed bay a new line
  * Return: always 0 (success)
  */
 int main(void)
@@ -17,10 +17,10 @@ int main(void)
 	{
 		if (j != 20365011074)
 		{
-			printf("%ld,",j);
+			printf("%ld,", j);
 		} else
 		{
-			printf("%ld\n",j); 
+			printf("%ld\n", j);
 	}
 	next = j + k;
 	j = k;
