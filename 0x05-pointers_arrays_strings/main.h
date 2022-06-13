@@ -1,5 +1,5 @@
-#ifndef FILE_MAIL.H
-#define FILE_MAIL.H
+#ifndef FILE_MAIN.H
+#define FILE_MAIN.H
 
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
