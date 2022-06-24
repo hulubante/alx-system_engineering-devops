@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
  * main -  writes its name
  * @argc: arguement count
